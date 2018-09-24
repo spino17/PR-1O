@@ -184,4 +184,4 @@ from sklearn.metrics import confusion_matrix
 y_true = np.concatenate((y1_train, y2_train, y3_train), axis = 0)
 y_pred = glob_obj.global_classifier_four(x_set)
 
-confusion_matrix(y_true, y_pred)
+print(confusion_matrix(y_true, y_pred))
